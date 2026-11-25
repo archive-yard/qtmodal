@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "bundle": "npx esbuild index.js --bundle --outfile=dist/index.js --platform=browser --target=es2022 --format=esm"
+    "bundle": "npx esbuild@0.28.2 index.js --bundle --outfile=dist/index.js --platform=browser --target=es2022 --format=esm"
   },
   "author": "PlanetRenox",
   "license": "",
